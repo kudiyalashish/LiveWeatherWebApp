@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  padding: 35px;
+  background: rgb(148, 225, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(148, 225, 241, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.head-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.head-name,
+.github-icon a {
+  color: #396d8a;
+}
+
+.head-name {
+  font-size: medium;
+}
+
+.github-icon {
+  font-size: xx-large;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  padding: 10px 14px;
+  border-radius: 50px;
+}
+.search-input {
+  flex: 1;
+}
+
+.search-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.search-icon,
+.location-icon {
+  color: #396d8a;
+  font-size: x-large;
+}
+
+.search-icon,
+.location-icon {
+  position: relative;
+  top: 3px;
+}
+.current-box,
+.forecast-box {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding: 16px 12px 30px 12px;
+  border-radius: 20px;
+}
+.current-weather-heading {
+  color: #396d8a;
+  font-size: small;
+  margin-bottom: 25px;
+  margin-left: 190px;
+}
+.city-name {
+  color: #6680a9;
+  font-size: 14px;
+}
+.icon-and-temp {
+  display: flex;
+  font-size: 150px;
+  gap: 6px;
+  align-items: center;
+}
+.current-weather-name {
+  color: #6680a9;
+}
+.current-weather-boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: centter;
+  gap: 20px;
+}
+
+.feels-like {
+  margin-bottom: 12px;
+  display: flex;
+  gap: ;
+}
+.arrows {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+td {
+  padding-right: 25px;
+  padding-bottom: 8px;
+}
+.all-forecast {
+  display: flex;
+  justify-content: space-evenly;
+}
+.forecast-box .heading {
+  margin-left: 0px;
+}
+.fday,
+.fstatus,
+.ftemp {
+  text-align: center;
+  margin: 6px 0px;
+}
